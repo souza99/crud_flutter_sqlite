@@ -1,4 +1,5 @@
 import 'package:rpg_d_d_flutter/View/habilidade_cadastro.dart';
+import 'package:rpg_d_d_flutter/View/habilidade_lista.dart';
 import 'package:rpg_d_d_flutter/View/item_cadastro.dart';
 import 'package:rpg_d_d_flutter/View/item_lista.dart';
 import 'package:rpg_d_d_flutter/View/login.dart';
@@ -38,6 +39,7 @@ class MyApp extends StatelessWidget {
         "/itemLista": (context) => ListaItem(),
         "/habilidadeCadastro": (context) => HabilidadeCadastro(),
         "/personagemCadastro": (context) => PersonagemCadastro(),
+        "/habilidadeLista": (context) => ListaHabilidade(),
       },
       // const MyHomePage(title: 'Primeiro app'),
     );

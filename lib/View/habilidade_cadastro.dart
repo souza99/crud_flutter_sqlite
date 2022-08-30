@@ -7,11 +7,11 @@ import '../Domain/Classe.dart';
 class HabilidadeCadastro extends StatelessWidget {
   HabilidadeCadastro({Key? key}) : super(key: key);
 
-  late int? id;
+  late int? id = null;
   late String? descricao;
   late String? tipo;
   late double? porcentagem;
-  late bool? padrao;
+  late bool padrao = false;
   late String? nome;
 
   Future<int> salvarHabilidade(String nome, String descricao, String tipo,
